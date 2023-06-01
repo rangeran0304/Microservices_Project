@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/../ConfigServer/ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../OrderService/OrderService.iml" filepath="$PROJECT_DIR$/../OrderService/OrderService.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductService.iml" filepath="$PROJECT_DIR$/ProductService.iml" />
       <module fileurl="file://$PROJECT_DIR$/../service-registry/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/../service-registry/service-registry/service-registry.iml" />
