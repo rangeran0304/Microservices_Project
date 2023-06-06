@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/../service-registry/service-registry/pom.xml" />
         <option value="$PROJECT_DIR$/../OrderService/pom.xml" />
         <option value="$PROJECT_DIR$/../ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../PaymentService/pom.xml" />
+        <option value="$PROJECT_DIR$/../CloudGateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,19 +11,25 @@
         <module name="OrderService" />
         <module name="ProductService" />
         <module name="service-registry" />
+        <module name="PaymentService" />
+        <module name="CloudGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CloudGateway" target="1.8" />
       <module name="ConfigServer" target="1.8" />
       <module name="OrderService" target="1.8" />
+      <module name="PaymentService" target="1.8" />
       <module name="ProductService" target="1.8" />
       <module name="service-registry" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CloudGateway" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
       <module name="OrderService" options="-parameters" />
+      <module name="PaymentService" options="-parameters" />
       <module name="ProductService" options="-parameters" />
       <module name="service-registry" options="-parameters" />
     </option>
